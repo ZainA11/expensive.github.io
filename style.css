@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* banner section */
+
+#banner{
+    background-image: url("https://images.unsplash.com/photo-1600673645627-1c47394132ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 25%;
+    text-align: left;
+}
+.logo{
+    font-family: "Playfair Display", serif;
+}
+.banner-logo{
+    font-size: 3rem;
+    color: white;
+}
+.banner-text{
+    font-size: 2rem;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+/* Latest Products Section */
+#latest-products{
+    background-color: silver;
+    padding: 3% 15%;
+}
+.product{
+    text-align: center;
+}
+.product img{
+    width: 65%;
+    border-radius: 3px;
+}
+.product-text{
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+}
+/* best products section */
+#best-products{
+    background-color: purple;
+    text-align: center;
+    padding-top: 5%;
+}
+.products-heading{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+}
+/* footer */
+footer{
+    background-color: black;
+    text-align: center;
+}
+.copyrights{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
